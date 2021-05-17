@@ -1,6 +1,7 @@
 import React from "react";
 import Cookies from 'js-cookie';
 import logo from '../../../assets/images/atos-logo-white.png';
+import { FaUser } from "react-icons/fa";
 
 const Header = () => {
 
@@ -14,7 +15,7 @@ const Header = () => {
         <div className="logo"><img  src={logo} width="100" alt="" /></div>
         <div className="title">APS Edge - Host Management</div>
         <div className="user">
-          <p><i className="fa fa-user"></i> Admin</p>
+          <p><FaUser /> Admin</p>
           <button className="btn btn-primary" onClick={logout}>Logout</button>
         </div>
     </header>

@@ -7,6 +7,6 @@ const port = config.app.port;
 
 console.log('App is listening on port ' + port);
 
-console.log('SSP API Endpoint ' + config.api_endpoint);
+console.log('API Endpoint ' + config.api_endpoint);
 
 app.listen(port);
